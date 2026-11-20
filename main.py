@@ -1,5 +1,8 @@
+from cli.cli import Cli
+
 def main():
-    pass
+    app = Cli()
+    app.run()
 
 if __name__  == '__main__':
     main()
